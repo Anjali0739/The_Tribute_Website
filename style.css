@@ -16,9 +16,25 @@
     display: flex;
 }
 .box1>img{
-    width: 314px;
-    height: 392px;
+    width: 40%;
     border-radius: 50%;
+}
+.title{
+    color: #000;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    width: 60%;
+    padding: 30% 2% 0% 0%;
+}
+.title>h1{
+    width: 100%;
+    text-align: end;
+}
+.title>h4{
+    text-align: end;
+    width: 100%;
 }
 .box2>h1{
     display: flex;
@@ -33,6 +49,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
+    padding: 5% 0% 5% 0%;
+    
 }
 .box2>p{
     font-family: Inter;
@@ -43,10 +61,49 @@
     letter-spacing: 0.72px;
     color: #000;
     font-family: Inter;
-    font-size: 12px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0.72px;
+    padding: 2% 0% 4% 0%;
 }
-
+.box3>h3{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 1% 0% 2% 0%;
+}
+.box3>ul{
+    list-style: circle;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 2%;
+}
+li{
+    list-style: disc;
+}
+footer{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: end;
+}
+a{
+    color: #0A4EFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
